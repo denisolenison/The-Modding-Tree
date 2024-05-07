@@ -290,7 +290,7 @@ addLayer("r", {
             }
 
 
-            let ticks2 = (hasMilestone('r', 6) * 10) + (hasMilestone("s", 4) * 10) + (hasMilestone("s", 6) * 1000)
+            player[this.layer].ticks2 = (hasMilestone('r', 6) * 10) + (hasMilestone("s", 4) * 10) + (hasMilestone("s", 6) * 1000)
              + (hasMilestone("s", 9) * 2000) + (hasMilestone("s", 16) * 10000) + (hasMilestone("s", 18) * 100000)
              + (hasMilestone("s", 21) * 1e9) + (hasMilestone("s", 22) * 1e90);
 
